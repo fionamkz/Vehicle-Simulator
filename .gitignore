@@ -1,0 +1,69 @@
+# Unreal Engine files
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# Build files
+Build/
+.vs/
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+
+# Visual Studio
+*.sln.DotSettings.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Unreal Engine cache and temporary files
+*.tmp
+*.log
+*.autosave
+
+# Compiled Object files
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+
+# Unreal specific
+*.uproject.bak
+*.uasset.bak
+*.umap.bak
+
+# Ignore starter content (uncomment if not needed)
+# Content/StarterContent/
+
+# Ignore Marketplace content (uncomment to ignore all)
+# Content/Marketplace/
+
+# Platform specific builds
+/Platforms/
+
+# Plugins
+/Plugins/*/Binaries/
+/Plugins/*/Intermediate/
+
+# IDE files
+*.swp
+*.swo
+*~
