@@ -14,4 +14,13 @@ public:
 
 protected:
     virtual void BeginPlay() override;
+
+    // Function to check and debug player possession status
+    UFUNCTION()
+    void CheckPlayerPossession();
+
+    // Function to setup input axis mappings programmatically
+    void SetupInputAxisMappings();
+
+
 };

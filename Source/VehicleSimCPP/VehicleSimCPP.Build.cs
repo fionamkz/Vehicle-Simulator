@@ -10,7 +10,7 @@ public class VehicleSimCPP : ModuleRules
 
         PublicDependencyModuleNames.AddRange(new string[]
         {
-            "Core", "CoreUObject", "Engine", "InputCore", "ChaosVehicles", "PhysicsCore"
+            "Core", "CoreUObject", "Engine", "InputCore", "ChaosVehicles", "PhysicsCore", "ProceduralMeshComponent"
         });
     }
 }
